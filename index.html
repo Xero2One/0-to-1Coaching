@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0to1Coaching</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #4caf50;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        .service-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        .service-card h3 {
+            margin-bottom: 1rem;
+            color: #4caf50;
+        }
+        .service-card p {
+            margin-bottom: 1.5rem;
+        }
+        .service-card a {
+            text-decoration: none;
+            color: white;
+            background-color: #4caf50;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .service-card a:hover {
+            background-color: #388e3c;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>0to1Coaching</h1>
+        <p>Your journey to personal transformation starts here</p>
+    </header>
+    <nav>
+        <a href="#mindset">Mindset Coaching</a>
+        <a href="#nutrition">Nutrition Coaching</a>
+        <a href="#strength">Strength & Conditioning</a>
+        <a href="#finance">Personal Finance</a>
+    </nav>
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-card" id="mindset">
+                <h3>Mindset Shift Coaching</h3>
+                <p>Empower your mind to achieve extraordinary growth and clarity.</p>
+                <a href="mindset.html">Learn More</a>
+            </div>
+            <div class="service-card" id="nutrition">
+                <h3>Nutrition Coaching</h3>
+                <p>Optimize your health and energy through personalized nutrition guidance.</p>
+                <a href="nutrition.html">Learn More</a>
+            </div>
+            <div class="service-card" id="strength">
+                <h3>Strength & Conditioning</h3>
+                <p>Build a stronger, more resilient body through tailored fitness plans.</p>
+                <a href="strength.html">Learn More</a>
+            </div>
+            <div class="service-card" id="finance">
+                <h3>Personal Finance Coaching</h3>
+                <p>Take control of your financial future with expert advice and strategies.</p>
+                <a href="finance.html">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 0to1Coaching. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
