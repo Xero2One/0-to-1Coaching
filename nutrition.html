@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nutrition Coaching</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Nutrition Coaching</h1>
-        <p>Fuel your body and mind with personalized nutrition plans.</p>
+        <p>Fuel your body and mind for optimal health</p>
     </header>
     <nav>
         <a href="index.html">Home</a>
@@ -17,25 +17,18 @@
         <a href="strength.html">Strength & Conditioning</a>
         <a href="finance.html">Personal Finance</a>
     </nav>
-    <main>
-        <section>
-            <h2>About Nutrition Coaching</h2>
-            <p>Discover the power of healthy eating tailored to your goals.</p>
-        </section>
-        <section class="blog-section">
-            <h2>Blog</h2>
-            <p>Coming soon: Recipes for optimal energy and health.</p>
-        </section>
-        <section class="contact-form">
-            <h2>Contact Us</h2>
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message"></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
+    <div class="container">
+        <h2>About Nutrition Coaching</h2>
+        <p>Our nutrition coaching program helps you make healthier choices and build sustainable habits. Start your journey to a better you today.</p>
+
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="send_mail.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
     <footer>
         <p>&copy; 2024 Zero2OneCoaching. All Rights Reserved.</p>
     </footer>
