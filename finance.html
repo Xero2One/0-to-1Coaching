@@ -1,29 +1,36 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Finance Coaching - Zero2One Coaching</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Personal Finance Coaching</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Personal Finance Coaching</h1>
+        <p>Master your money and achieve financial freedom</p>
     </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="mindset.html">Mindset Coaching</a>
+        <a href="nutrition.html">Nutrition Coaching</a>
+        <a href="strength.html">Strength & Conditioning</a>
+    </nav>
     <div class="container">
-        <p>Personal Finance is not about numbers; it's about overcoming fear and vagueness.</p>
+        <h2>About Personal Finance Coaching</h2>
+        <p>Our personal finance coaching program empowers you to manage your money, eliminate debt, and build wealth for the future.</p>
+
         <h2>Contact Us</h2>
-        <form class="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" rows="5" required></textarea>
-            <button type="submit">Send Message</button>
+        <form class="contact-form" action="send_mail.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
         </form>
-        <div class="blog-section">
-            <h2>Blog</h2>
-            <p>Coming Soon: Insights on managing personal finances effectively.</p>
-        </div>
     </div>
+    <footer>
+        <p>&copy; 2024 Zero2OneCoaching. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
